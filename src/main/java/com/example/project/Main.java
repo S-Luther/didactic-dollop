@@ -1,3 +1,7 @@
+//Neven Marinkovic
+//4/15/2024
+//CSCI 152 - Attendance Checker
+
 package com.example.project;
 
 import java.util.Random;

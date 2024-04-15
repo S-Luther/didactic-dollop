@@ -1,0 +1,47 @@
+package com.example.project.Characters;
+
+import com.example.project.Cultures.Naboo;
+
+public class Queen_Amidala implements Naboo{
+    
+    diplomacyStates mood;
+
+    public Queen_Amidala(int i) {
+        mood = diplomacyStates.values()[i];
+        System.out.println("Queen Amidala is in the mood to " + mood + ".");
+    }
+
+    @Override
+    public boolean tryDiplomacy(int enemyModifier) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'tryDiplomacy'");
+    }
+
+    @Override
+    public boolean Defend(int enemyModifier) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'fight'");
+    }
+
+    @Override
+    public boolean trytoDiscussPeace(int enemyModifier) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'tryToDiscussPeace'");
+    }
+
+    @Override
+    public boolean trytoDecieve(int enemyModifier) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'tryToDecieve'");
+    }
+
+    @Override
+    public Object getName(){
+        return "Queen Amidala";
+    }
+
+    @Override
+    public Object getMood(){
+        return mood;
+    }
+}

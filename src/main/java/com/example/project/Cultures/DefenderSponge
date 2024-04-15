@@ -1,0 +1,17 @@
+package com.example.project.Cultures;
+
+public interface DefenderSponge extends Culture {
+    int diplomacyModifier = 1000;
+    int fightiness = 0;
+
+    enum fightingStates {
+        DEFEND
+    }
+
+    enum diplomacyStates {
+        NONTHREAT
+    }
+    
+    //King Sponge and his minions never surrender 
+    boolean secretPower(int enemyModifier);
+}

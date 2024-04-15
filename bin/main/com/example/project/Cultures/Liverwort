@@ -1,0 +1,26 @@
+package com.example.project.Cultures;
+
+public interface Klingon extends Culture {
+    int diplomacyModifier = 8;
+    int fightiness = 2;
+
+    enum fightingStates {
+        ATTACK,
+        INFILTRATE,
+        ASSASSINATE,
+        DEFEND,
+        SURRENDER,
+        RUN
+    }
+
+    enum diplomacyStates {
+        BRIBE,
+        INTEGRATE,
+        NEGOTIATE,
+        BARTER
+    }
+
+    boolean kissUp (int enemyModifier);
+    boolean attemptNegotiation(int enemyModifier);
+    boolean buyAssassin (int enemyModifier);
+}

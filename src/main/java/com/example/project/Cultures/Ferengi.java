@@ -7,7 +7,8 @@ public interface Ferengi extends Culture {
         SWINDLE,
         BITE,
         ROB,
-        SCRATCH
+        SCRATCH,
+        POOR_A_DRINK
     }
 
     enum diplomacyStates {

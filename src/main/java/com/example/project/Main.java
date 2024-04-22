@@ -6,10 +6,8 @@ package com.example.project;
 
 import java.util.Random;
 
-import com.example.project.Characters.BElanna;
-import com.example.project.Characters.Daenerys;
+import com.example.project.Characters.Gothmog;
 import com.example.project.Cultures.Culture;
-import com.example.project.Cultures.Klingon;
 
 public class Main {
 
@@ -20,11 +18,10 @@ public class Main {
 
     public static void main(String[] args){
         Random rng = new Random();
+        Gothmog gothmog = new Gothmog(rng.nextInt(3));
+        Gothmog uglierGothmog = new Gothmog(rng.nextInt(3));
 
-        BElanna BElanna = new BElanna(rng.nextInt(3));
-        Daenerys Daenerys = new Daenerys(rng.nextInt(3));
-
-        interact(BElanna, Daenerys);
+        interact(gothmog, uglierGothmog);
 
 
     }

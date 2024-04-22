@@ -13,20 +13,24 @@ public class Daenerys implements Valyrian {
 
     @Override
     public boolean tryDiplomacy(int enemyModifier) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'tryDiplomacy'");
-    }
+        if (diplomacyModifier > enemyModifier) 
+            return true;
+        else
+            return false;
+        };
+    
 
     @Override
     public boolean fight(int enemyModifier) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fight'");
+        if (fightiness > enemyModifier) 
+            return true;
+        else
+            return false;
     }
 
     @Override
     public boolean tryToPickAFight(int enemyModifier) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'tryToPickAFight'");
+        return fight(enemyModifier);
     }
 
     @Override

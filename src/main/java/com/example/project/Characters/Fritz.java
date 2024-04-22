@@ -26,6 +26,24 @@ public class Fritz implements Bitoo{
         throw new UnsupportedOperationException("Unimplemented method 'tryToWorkItOut'");
     }
 
+	@Override
+	public Object getMood() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'getMood'");
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'getName'");
+	}
+
+	@Override
+	public boolean sayTurnThatFrownUpsideDown(int enemeyModifier) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'sayTurnThatFrownUpsideDown'");
+	}
+
 }
 
 

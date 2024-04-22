@@ -20,6 +20,8 @@ public interface TexasRangers extends Culture {
 
     boolean tryToNegotiate(int enemyModifier);
 
+    //git change
+
 
 
     

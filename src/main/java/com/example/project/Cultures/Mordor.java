@@ -7,15 +7,40 @@ public interface Mordor extends Culture {
 
     enum fightingStates
     {
-        ATTACK,
-        SNEAK_ATTACK
+        SNEAK_ATTACK,
+        BRUTAL_CHARGE,
+        STRATEGIC_MOVEMENT
+    }
+
+    enum weapons
+    {
+        AX,
+        BOW,
+        SHARD_OF_METAL,
+        MORGUL_BLADE
+
     }
 
     enum diplomacyStates
     {
         CONQUER,
         VANQUISH,
-        DESTROY
+        DESTROY,
+        DECIEVE,
+        MANIPULATE,
+        LIE,
+        WAR_CRY
+    }
+
+    enum moods
+    {
+        UPSET,
+        APPALED,
+        ANNOYED,
+        FRUSTRATED,
+        HAPPY,
+        MISCHEVIOUS,
+        DECEPTIVE
     }
 
     

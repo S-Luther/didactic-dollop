@@ -2,7 +2,7 @@ package com.example.project.Cultures;
 
 public interface Klingon extends Culture {
     int diplomacyModifier = 8;
-    int fightiness = 2;
+    int fightiness = 3;
 
     enum fightingStates {
         ATTACK,

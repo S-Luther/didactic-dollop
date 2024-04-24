@@ -44,10 +44,10 @@ public class LinkedList {
     public static void main(String[] args){
         LinkedList list = new LinkedList();
 
-        list.insert(list, 4);
-        list.insert(list, 5);
-        list.insert(list, 6);
-        list.insert(list, 7);
+        insert(list, 4);
+        insert(list, 5);
+        insert(list, 6);
+        insert(list, 7);
 
         printList(list);
     }

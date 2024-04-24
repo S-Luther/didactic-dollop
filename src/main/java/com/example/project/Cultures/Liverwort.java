@@ -1,6 +1,6 @@
 package com.example.project.Cultures;
 
-public interface Klingon extends Culture {
+public interface Liverwort extends Culture {
     int diplomacyModifier = 8;
     int fightiness = 3;
 
@@ -22,5 +22,5 @@ public interface Klingon extends Culture {
 
     boolean kissUp (int enemyModifier);
     boolean attemptNegotiation(int enemyModifier);
-    boolean buyAssassin (int enemyModifier);
+    boolean hireAssassin (int enemyModifier);
 }

@@ -41,7 +41,7 @@ public class Waxy implements Liverwort {
     public diplomacyStates getMood(){
         return mood;
     }
-    
+    // Gets name
     @Override
     public String getName(){
         return "Waxy Cuticle";

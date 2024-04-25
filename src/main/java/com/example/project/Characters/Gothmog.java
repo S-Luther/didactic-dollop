@@ -4,17 +4,17 @@ import com.example.project.Cultures.Mordor;
 
 public class Gothmog implements Mordor {
 
-    diplomacyStates mood;
+    moods mood;
 
     public Gothmog(int i){
-        mood = diplomacyStates.values()[i];
-        System.out.println("Gothmog is in the mood to " + mood + ".");
+        mood = moods.values()[i];
+        //System.out.println("Gothmog is in the mood to " + mood + ".");
     }
 
     @Override
     public boolean tryDiplomacy(int enemyModifier) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'tryDiplomacy'");
+        System.out.println("Gothmog wants to " + diplomacyStates.values()[enemyModifier]);
+        return false;
     }
 
     public String getName()
@@ -24,9 +24,10 @@ public class Gothmog implements Mordor {
 
 
     @Override
-    public boolean fight(int enemyModifier) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fight'");
+    public boolean fight(int i) {
+        System.out.println("Gothmog is always in the mood to fight!");
+        return true;
+        
     }
 
     //@Override

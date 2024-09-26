@@ -5,7 +5,7 @@ import com.example.project.Cultures.Klingon;
 public class toothless implements Klingon {
 
     public toothless(int i){
-        System.out.println("B'Elanna is in the mood to " + diplomacyStates.values()[i] + ".");
+        System.out.println("Toothless is in the mood to " + diplomacyStates.values()[i] + ".");
     }
 
     @Override

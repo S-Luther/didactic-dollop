@@ -1,6 +1,6 @@
 package com.example.project.Cultures;
 
-public interface dragon extends Culture {
+public interface toothless extends Culture {
     int diplomacyModifier = 3;
     int fightingness = 3;
 
